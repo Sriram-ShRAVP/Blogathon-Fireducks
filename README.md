@@ -25,7 +25,7 @@ The dataset used in this project is sourced from Kaggle:
 ✅ **Pandas, NumPy, Matplotlib, Seaborn**
 ✅ **Scikit-learn (ML models)**
 ✅ **FireDucks (for efficient data processing & benchmarking)**
-✅ **Jupyter Notebook**
+✅ **Jupyter Notebook, Google Colab, VS Code**
 
 ---
 
@@ -66,11 +66,26 @@ conda activate fireducks-env
 
 ---
 
-## 🚀 Running the Project
-### Open Jupyter Notebook and Run the Code:
+## 💻 Running the Project
+### Option 1: Jupyter Notebook
 ```
 jupyter notebook code/Fireducks_SriramParisa_Project.ipynb
 ```
+
+### Option 2: Google Colab
+- Upload the notebook to Google Colab.
+- Change the runtime to GPU if required.
+- Make sure to mount Google Drive to access data.
+
+### Option 3: VS Code
+- Open the project folder in VS Code.
+- Make sure you have Jupyter extension installed.
+- Run the notebook by executing:
+```
+code .
+```
+- Use the interactive Python environment within VS Code.
+
 🔹 **Follow the step-by-step execution in the notebook**
 🔹 **Includes data analysis, feature engineering, model building, and benchmarking**
 
@@ -95,7 +110,10 @@ Contributions are welcome! Please follow these steps:
 4. **Push to GitHub:** `git push origin feature-branch`
 5. **Create a Pull Request**
 
+---
 
+## 📄 License
+📜 This project is licensed under the **MIT License**.
 
 ---
 
